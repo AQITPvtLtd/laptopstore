@@ -9,6 +9,7 @@ const Services = () => {
             <div className='grid grid-cols-5'>
                 <div className='px-4'>
                     <Image src="/services/img1.png" height="250" width="250" alt='service-img' className='bg-[#c1e8ff] p-4' />
+                    <p>Screen Replacement</p>
                 </div>
                 <div className='px-4'>
                     <Image src="/services/img2.png" height="250" width="250" alt='service-img' className='bg-[#c1e8ff]' />

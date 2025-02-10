@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^12.2.0",
+    "gsap": "^3.12.7",
+    "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "react-icons": "^5.4.0",
+    "react-intersection-observer": "^9.15.1",
+    "react-scroll-trigger": "^0.6.14",
+    "typed.js": "^2.1.0"
   },
   "devDependencies": {
     "postcss": "^8",

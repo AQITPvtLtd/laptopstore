@@ -1,30 +1,31 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
 
 const Slider = () => {
     return (
-        <div className=''>
-            {/* Background styling with correct syntax */}
+        <div className="w-full">
+            {/* First Slider Image */}
             <div
-                className="bg-cover bg-center bg-fixed"
+                className="bg-cover bg-center bg-fixed w-full h-screen md:h-[80vh] lg:h-[100vh] flex items-center justify-center"
                 style={{
                     backgroundImage: 'url("/slider/slider1.png")',
-                    minHeight: '500px',
-                    backgroundRepeat: 'no-repeat',  // Correct property for no-repeat
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
                 }}
             ></div>
 
+            {/* Second Slider Image */}
             <div
-                className="bg-cover bg-center bg-fixed"
+                className="bg-cover bg-center bg-fixed w-full h-screen md:h-[80vh] lg:h-[90vh] flex items-center justify-center"
                 style={{
                     backgroundImage: 'url("/slider/slider2.png")',
-                    minHeight: '800px',
-                    backgroundRepeat: 'no-repeat',  // Correct property for no-repeat
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
                 }}
             ></div>
-    
         </div>
-    )
-}
+    );
+};
 
-export default Slider
+export default Slider;

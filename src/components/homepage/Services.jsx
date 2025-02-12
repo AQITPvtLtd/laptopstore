@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-import { useInView } from "react-intersection-observer";
-import { motion } from "framer-motion";
+// import Link from "next/link";
+// import { useInView } from "react-intersection-observer";
+// import { motion } from "framer-motion";
 
 const Services = () => {
   return (
@@ -30,7 +30,7 @@ const Services = () => {
         ))}
       </div>
 
-      {[{ data: "data", delay: 0, direction: 100 }, { data: "data1", delay: 0.5, direction: -100 }].map(({ data, delay, direction }, index) => {
+      {/* {[{ data: "data", delay: 0, direction: 100 }, { data: "data1", delay: 0.5, direction: -100 }].map(({ data, delay, direction }, index) => {
         const content = data === "data"
           ? {
               name: "Is your laptop display or notepad screen broken? Reach us if your Laptop LCD /LED screen is broken or if your laptop monitor gets dim automatically.",
@@ -88,7 +88,7 @@ const Services = () => {
             </motion.div>
           </div>
         );
-      })}
+      })} */}
     </div>
   );
 };

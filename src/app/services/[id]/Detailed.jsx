@@ -3,19 +3,19 @@ import serviceData from '../data';
 import Image from 'next/image';
 
 const Detailed = ({ id }) => {
-    const obj = serviceData.find((item) => item.id === id);
-
+    const obj = serviceData.find((item) => item.id == id);
+    console.log(obj);
     if (!obj) {
         return <p className="text-red-500">Service not found.</p>;
     }
 
     return (
-        <div className="grid lg:grid-cols-3 gap-4 items-center mt-[100px]">
+        <div key={obj.id} className="grid lg:grid-cols-3 gap-4 items-center bg-[#c1e8ff] py-6">
             <div className="relative overflow-hidden rounded-lg transform transition duration-500 hover:scale-105">
                 {obj.img && (
                     <Image
-                        src={obj.img} // Removed template literals
-                        alt={obj.name}
+                        src={`/services/${obj.img}`} // Removed template literals
+                        alt="service-img"
                         width={1000}
                         height={1000}
                         className="rounded-lg"

@@ -1,12 +1,15 @@
-import React from 'react'
-import Detailed from './Detailed'
+import React from 'react';
+import Detailed from './Detailed';
 
-const page = ({ params }) => {
-    const id = params.id;
+const Page = async ({ params }) => {  // ✅ Make it async
+    const { id } = await params;  // ✅ Destructure correctly
     console.log(id);
+    
     return (
-        <div><Detailed id={id} /></div>
-    )
-}
+        <div className="pt-20">
+            <Detailed id={id} />
+        </div>
+    );
+};
 
-export default page
+export default Page;

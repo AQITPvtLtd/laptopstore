@@ -67,22 +67,22 @@ const Header = () => {
         >
           <ul id="part2" className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-white">
             <li>
-              <Link href="/" className="py-2 px-3 text-blue-700">
+              <Link href="/" className="py-2 px-3 font-semibold">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/about" className="py-2 px-3 hover:text-blue-700">
+              <Link href="/about" className="py-2 px-3 hover:text-blue-700 font-semibold">
                 About
               </Link>
             </li>
             <li>
-              <Link href="/services" className="py-2 px-3 hover:text-blue-700">
+              <Link href="/services" className="py-2 px-3 hover:text-blue-700 font-semibold">
                 Services
               </Link>
             </li>
             <li>
-              <Link href="#" className="py-2 px-3 hover:text-blue-700">
+              <Link href="#" className="py-2 px-3 hover:text-blue-700 font-semibold">
                 Blogs
               </Link>
             </li>
@@ -90,7 +90,7 @@ const Header = () => {
             <li className="relative" ref={dropdownRef}>
               <button
                 onClick={toggleDropdown}
-                className="flex items-center px-3 hover:text-blue-700"
+                className="flex items-center px-3 hover:text-blue-700 font-semibold"
               >
                 Media
                 <svg
@@ -116,12 +116,12 @@ const Header = () => {
               >
                 <ul className="py-2 text-sm text-gray-700">
                   <li>
-                    <Link href="#" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link href="#" className="block px-4 py-2 hover:bg-gray-100 font-semibold">
                       Gallery
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link href="#" className="block px-4 py-2 hover:bg-gray-100 font-semibold">
                       Videos
                     </Link>
                   </li>
@@ -131,7 +131,7 @@ const Header = () => {
               </div>
             </li>
             <li>
-              <Link href="#" className="py-2 px-3 hover:text-blue-700">
+              <Link href="/contactus" className="py-2 px-3 hover:text-blue-700 font-semibold">
                 Contact
               </Link>
             </li>

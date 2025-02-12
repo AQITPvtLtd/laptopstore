@@ -17,7 +17,7 @@ const serviceData = [
         icon: <FaBatteryHalf size={50} />,
         img: "batterybackup.png",
         title: "Battery Replacement",
-        content: "A faulty battery can ruin your laptop’s performance. We provide quick and efficient battery replacement services with reliable, long-lasting batteries to restore your laptop's battery life and performance."
+        content: "A faulty battery can slow down your laptop and disrupt your workflow. We offer fast and reliable battery replacement services with high-quality, long-lasting batteries to restore your laptop’s power, performance, and efficiency. Get your laptop running smoothly again with our expert service."
     },
     {
         id: 3,
@@ -43,8 +43,9 @@ const serviceData = [
     {
         id: 6,
         icon: <GrStorage size={50} />,
+        img: "ssd.png",
         title: "Laptop Upgrades (RAM & SSD)",
-        content: "Speed up your laptop with our RAM and SSD upgrade service. Get faster boot times and improved performance."
+        content: "Upgrade your laptop with our RAM and SSD service for faster boot times and improved performance. Experience smooth multitasking, quicker load times, and enhanced efficiency. Boost your device’s speed today!"
     }
 ];
 export default serviceData;

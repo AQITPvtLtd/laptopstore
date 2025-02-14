@@ -8,8 +8,8 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div>
-      <h1 className="text-center font-bold text-4xl mt-10 font-[Poppins] tracking-wide">OUR LAPTOP SERVICES</h1>
-      <p className="text-center font-semibold text-2xl font-[Montserrat] text-gray-700">
+      <h1 className="text-center font-bold text-4xl mt-10 font-Poppins tracking-wide">OUR LAPTOP SERVICES</h1>
+      <p className="text-center font-semibold text-2xl font-Poppins text-gray-700">
         The Laptop Store welcomes you to the world of quality services
       </p>
 

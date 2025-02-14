@@ -24,7 +24,7 @@ const Services = () => {
                                     : 'text-white group-hover:text-black'}`}>
                                 {service.icon}
                             </div>
-                            <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
+                            <h3 className="text-xl font-semibold mb-2 font-pacifico">{service.title}</h3>
                             <p className={`text-gray-600 line-clamp-3 ${service.id % 2 !== 0 ? 'text-white group-hover:text-black' : 'group-hover:text-white'}`}>
                                 {service.content}
                             </p>

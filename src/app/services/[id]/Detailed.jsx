@@ -23,9 +23,9 @@ const Detailed = ({ id }) => {
                 )}
             </div>
             <div className="lg:col-span-2 flex flex-col justify-center bg-white p-6 rounded-lg shadow-inner overflow-hidden">
-                <h1 className="text-4xl font-bold text-gray-900 mb-4">{obj.title}</h1>
+                <h1 className="text-4xl font-bold text-gray-900 mb-4 font-pacifico">{obj.title}</h1>
                 {console.log(obj.title)}
-                <p className="text-gray-700 text-lg">{obj.content}</p>
+                <p className="text-gray-700 text-lg font-poppins">{obj.content}</p>
             </div>
         </div>
     );

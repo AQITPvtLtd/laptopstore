@@ -8,7 +8,7 @@ const Laptops = () => {
     return (
         <div>
             <div className='bg-[#c1e8ff]'>
-                <h1 className='text-center font-semibold lg:text-5xl md:text-3xl text-lg mt-3 px-2 py-10'>
+                <h1 className='text-center font-semibold md:text-3xl text-lg mt-3 px-2 py-10 font-Poppins'>
                     We Service All Makes of Laptops
                 </h1>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 px-5 pb-5">

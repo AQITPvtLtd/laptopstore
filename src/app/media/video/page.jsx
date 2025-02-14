@@ -1,12 +1,11 @@
 import React from 'react'
-import Services from './Services'
-
+import Video from './Video'
 export const metadata = {
-    title: "The Laptop Store - Services",
+    title: "The Laptop Store - Videos",
   };
 const page = () => {
     return (
-        <div><Services /></div>
+        <div> <Video /> </div>
     )
 }
 

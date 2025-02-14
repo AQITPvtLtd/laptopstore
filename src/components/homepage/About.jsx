@@ -21,8 +21,8 @@ const AboutUs = () => {
     }, []);
 
     return (
-        <div className="bg-[#c1e8ff] mt-5">
-            <h1 className="text-center text-3xl font-semibold pt-4">ABOUT US</h1>
+        <div className="bg-[#c1e8ff] -mt-36">
+            <h1 className="text-center text-3xl font-semibold pt-4 font-Poppins">ABOUT US</h1>
             <div className="lg:grid lg:grid-cols-2 justify-center px-9 py-12 flex flex-col-reverse">
                 <div>
                     <p className="text-center text-3xl font-semibold py-4">

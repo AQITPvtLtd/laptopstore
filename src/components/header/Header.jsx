@@ -121,7 +121,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="block px-4 py-2 hover:bg-gray-100 font-semibold">
+                    <Link href="/media/video" className="block px-4 py-2 hover:bg-gray-100 font-semibold">
                       Videos
                     </Link>
                   </li>

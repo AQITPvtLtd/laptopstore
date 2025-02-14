@@ -20,7 +20,7 @@ const Faq = () => {
 
     return (
         <div className="mx-auto p-6">
-            <h2 className="text-4xl font-bold text-center mb-6">Frequently Asked Questions</h2>
+            <h2 className="text-4xl font-bold text-center mb-6 font-Poppins">Frequently Asked Questions</h2>
             <div className="divide-y divide-gray-300 mx-10">
                 {faqs.map((faq, index) => (
                     <div key={index} className="py-4">

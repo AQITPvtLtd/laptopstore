@@ -57,7 +57,7 @@ const Footer = () => {
                 <div>
                     <div>
                         <h2 className="font-semibold text-xl mb-3 text-blue-400">Address</h2>
-                        <div className="flex gap-2 text-gray-300 sm:justify-center md:justify-start">
+                        <div className="flex gap-2 text-gray-300 justify-center md:justify-start">
                             <FaLocationDot className="text-blue-400 mt-1" />
                             <p>
                                 G 3 Deep Building, Wazipur Commercial Complex, Delhi, 110052
@@ -66,13 +66,13 @@ const Footer = () => {
                     </div>
                     <div className="mt-4">
                         <h2 className="font-semibold text-xl mb-2 text-blue-400">Email</h2>
-                        <Link href="mailto:laptophub0723@gmail.com" className="flex sm:justify-center md:justify-start gap-2 text-gray-300 hover:text-blue-300 transition">
+                        <Link href="mailto:laptophub0723@gmail.com" className="flex justify-center md:justify-start gap-2 text-gray-300 hover:text-blue-300 transition">
                             <MdEmail className="text-blue-400 mt-1" /> laptophub0723@gmail.com
                         </Link>
                     </div>
                     <div className="mt-4">
                         <h2 className="font-semibold text-xl mb-2 text-blue-400">Phone</h2>
-                        <Link href="tel:09560438879" className="flex sm:justify-center md:justify-start gap-2 text-gray-300 hover:text-blue-300 transition">
+                        <Link href="tel:09560438879" className="flex justify-center md:justify-start gap-2 text-gray-300 hover:text-blue-300 transition">
                             <IoCall className="text-blue-400 mt-1" /> +91 9560438879
                         </Link>
                     </div>

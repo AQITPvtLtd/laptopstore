@@ -82,7 +82,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="#" className="py-2 px-3 hover:text-blue-700 font-semibold">
+              <Link href="/blog" className="py-2 px-3 hover:text-blue-700 font-semibold">
                 Blogs
               </Link>
             </li>

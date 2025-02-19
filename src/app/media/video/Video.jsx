@@ -5,12 +5,12 @@ const Video = () => {
     return (
         <div className="py-12 mt-20 bg-[#c1e8ff] px-6 sm:px-12 lg:px-20">
             {/* Header Section */}
-            <div className="relative w-full max-w-5xl mx-auto">
+            <div className="relative w-full max-w-5xl mx-auto mt-10">
                 <Image
                     src="/video/video.png"
                     width={1000}
                     height={400}
-                    className="w-full h-[300px] object-cover rounded-xl shadow-lg"
+                    className="w-full lg:h-[250px] h-[150px] object-cover rounded-xl shadow-lg"
                     alt="Video Section"
                 />
                 <div className="absolute inset-0 opacity-70 rounded-xl"></div>

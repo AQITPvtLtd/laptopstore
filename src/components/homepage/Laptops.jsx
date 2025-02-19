@@ -8,7 +8,7 @@ const Laptops = () => {
     return (
         <div>
             <div className='bg-[#c1e8ff]'>
-                <h1 className='text-center font-semibold md:text-3xl text-lg mt-3 px-2 py-10 font-Poppins'>
+                <h1 className='text-center font-semibold md:text-3xl text-lg mt-3 px-2 py-10 font-Poppins dark:text-gray-900'>
                     We Service All Makes of Laptops
                 </h1>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 px-5 pb-5">
@@ -25,7 +25,7 @@ const Laptops = () => {
                 </div>
             </div>
             
-            <div className="bg-[#0b2b5e] text-white py-6 px-8 rounded-tl-[50px] rounded-br-[50px] flex flex-col md:flex-row items-center justify-between mx-5 sm:mx-10 md:mx-20 lg:mx-60">
+            <div className="bg-[#0b2b5e] text-white py-6 px-8 mt-10 rounded-tl-[50px] rounded-br-[50px] flex flex-col md:flex-row items-center justify-between mx-5 sm:mx-10 md:mx-20 lg:mx-60">
                 {/* Phone Section */}
                 <div className="flex items-center space-x-4 mb-4 md:mb-0">
                     <BiSolidPhoneCall className="text-4xl" />

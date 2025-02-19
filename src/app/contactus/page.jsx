@@ -10,8 +10,20 @@ export const metadata = {
 
 const Page = () => {
     return (
-        <div className="container mx-auto px-4 mt-24">
-            <div className='lg:grid lg:grid-cols-12 gap-10 items-center'>
+        <div className="container mx-auto px-4 lg:mt-[125px] mt-[150px]">
+
+            <div className="relative w-full max-w-5xl mx-auto rounded-2xl">
+                <div className='py-9 rounded-2xl shadow-slate-800 shadow-custom'>
+
+                </div>
+                <div className="absolute inset-0 opacity-70 rounded-xl"></div>
+                <h1 className="text-black font-Poppins text-center text-3xl font-bold absolute inset-0 flex items-center justify-center">
+                    Contact Us
+                </h1>
+            </div>
+
+
+            <div className='lg:grid lg:grid-cols-12 gap-10 items-center mt-9'>
                 <div className="col-span-7 hidden lg:block w-full ">
                     <Image
                         src="/contactus/contactbg.png"

@@ -56,8 +56,6 @@ const Contact = () => {
     return (
 
         <div>
-
-
             <div className="w-full bg-[#c1e8ff] p-6 shadow-lg rounded-lg">
                 <form className="space-y-4" onSubmit={handleSubmit}>
                     <h3 className="text-2xl font-semibold text-gray-700 text-center font-Poppins">Submit Your Query</h3>
@@ -78,8 +76,8 @@ const Contact = () => {
                         <input type="text" id="Location" name="Location" className="w-full border border-gray-300 rounded-2xl px-3 py-2 focus:outline-none focus:border-blue-500" placeholder="Enter Your Location" required value={formData.Location} onChange={handleChange} />
                     </div>
                     <div>
-                        <label className="block text-gray-600" htmlFor="Message">Write Problem English / Hindi <span className="text-red-500">*</span></label>
-                        <textarea id="Message" name="Message" className="w-full border border-gray-300 rounded-2xl px-3 py-2 focus:outline-none focus:border-blue-500" placeholder="Describe Health Problem..." required value={formData.Message} onChange={handleChange}></textarea>
+                        <label className="block text-gray-600" htmlFor="Message">Write Query English / Hindi <span className="text-red-500">*</span></label>
+                        <textarea id="Message" name="Message" className="w-full border border-gray-300 rounded-2xl px-3 py-2 focus:outline-none focus:border-blue-500" placeholder="Describe Your Query..." required value={formData.Message} onChange={handleChange}></textarea>
                     </div>
 
 

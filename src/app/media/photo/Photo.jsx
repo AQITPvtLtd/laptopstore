@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Blog = () => {
+const Photo = () => {
   return (
     <div className='lg:mt-[125px] mt-[155px]'>
       <div className="relative w-full max-w-5xl mx-auto rounded-2xl px-5">
@@ -9,7 +9,7 @@ const Blog = () => {
         </div>
         <div className="absolute inset-0 opacity-70 rounded-xl"></div>
         <h1 className="text-black font-Poppins text-center text-3xl font-bold absolute inset-0 flex items-center justify-center">
-          Our Blogs
+          Gallery
         </h1>
       </div>
       <div className='mt-10'>
@@ -18,4 +18,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default Photo

@@ -10,8 +10,8 @@ const Detailed = ({ id }) => {
     }
 
     return (
-        <div key={obj.id} className="grid lg:grid-cols-3 gap-4 items-center bg-[#c1e8ff] py-6">
-            <div className="relative overflow-hidden rounded-lg transform transition duration-500 hover:scale-105">
+        <div key={obj.id} className="grid lg:grid-cols-3 gap-4 items-center bg-[#c1e8ff] py-6 px-6">
+            <div className="relative overflow-hidden mt-10 rounded-lg transform transition duration-500 hover:scale-105">
                 {obj.img && (
                     <Image
                         src={`/services/${obj.img}`} // Removed template literals
@@ -22,7 +22,7 @@ const Detailed = ({ id }) => {
                     />
                 )}
             </div>
-            <div className="lg:col-span-2 flex flex-col justify-center bg-white p-6 rounded-lg shadow-inner overflow-hidden">
+            <div className="lg:col-span-2 flex flex-col justify-center bg-white px-6 py-2 rounded-lg shadow-inner overflow-hidden">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4 font-pacifico">{obj.title}</h1>
                 {console.log(obj.title)}
                 <p className="text-gray-700 text-lg font-poppins">{obj.content}</p>

@@ -2,7 +2,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
-
+import { FaWhatsapp } from "react-icons/fa6";
+import { IoLocationSharp } from "react-icons/io5";
+import Link from "next/link";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -22,8 +24,32 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-white`}
       >
+
+        {/* WhatsApp Button */}
+        <div className="fixed bottom-5 right-5 flex items-center bg-green-500 text-white p-2 rounded-full shadow-lg z-50 hover:bg-green-600 transition duration-300 ease-in-out">
+          <Link
+            href="https://wa.me/9560438879"
+            className="flex items-center font-semibold"
+            target="_blank"
+          >
+            <FaWhatsapp className="text-4xl" />
+          </Link>
+        </div>
+
+        {/* Location Button - Moved slightly up and left to prevent overlap */}
+        <div className="fixed bottom-20 right-5 flex items-center bg-blue-800 text-white p-2 rounded-full shadow-lg z-50 hover:bg-blue-900 transition duration-300 ease-in-out">
+          <Link
+            href="https://g.co/kgs/mhSzKsV"
+            className="flex items-center font-semibold"
+            target="_blank"
+          >
+            <IoLocationSharp className="text-4xl shadow-inner" />
+          </Link>
+        </div>
+
+
         <Header />
         {children}
         <Footer />

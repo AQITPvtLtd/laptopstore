@@ -19,22 +19,22 @@ const Faq = () => {
     };
 
     return (
-        <div className="mx-auto p-6">
-            <h2 className="text-4xl font-bold text-center mb-6 font-Poppins">Frequently Asked Questions</h2>
+        <div className="mx-auto p-6 ">
+            <h2 className="text-4xl font-bold text-center mb-6 font-Poppins dark:text-gray-900">Frequently Asked Questions</h2>
             <div className="divide-y divide-gray-300 mx-10">
                 {faqs.map((faq, index) => (
                     <div key={index} className="py-4">
                         <button
-                            className="flex justify-between items-center w-full text-left text-lg font-medium focus:outline-none"
+                            className="flex justify-between items-center dark:text-gray-900 w-full text-left text-lg font-medium focus:outline-none"
                             onClick={() => toggleAccordion(index)}
                         >
                             <span>{faq.question}</span>
-                            {activeIndex === index ? <IoMdRemove className="text-xl" /> : <IoMdAdd className="text-xl" />}
+                            {activeIndex === index ? <IoMdRemove className="text-xl dark:text-gray-900" /> : <IoMdAdd className="text-xl dark:text-gray-900" />}
                         </button>
                         <div
                             className={`overflow-hidden transition-all duration-300 ease-in-out ${activeIndex === index ? "max-h-40 opacity-100" : "max-h-0 opacity-0"}`}
                         >
-                            <p className="mt-2 text-gray-600">{faq.answer}</p>
+                            <p className="mt-2 text-gray-600 dark:text-gray-900">{faq.answer}</p>
                         </div>
                     </div>
                 ))}

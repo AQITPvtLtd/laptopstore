@@ -31,9 +31,21 @@ const About = () => {
     }, []);
 
     return (
-        <div className='mt-28 px-4 sm:px-8'>
-            {/* About Us Section */}
-            <AboutUs />
+        <div className='lg:mt-[125px] mt-[155px] px-4 sm:px-8'>
+            <div className="relative w-full max-w-5xl mx-auto rounded-2xl">
+                <div className='py-9 rounded-2xl shadow-slate-800 shadow-custom'>
+                   
+                </div>
+                <div className="absolute inset-0 opacity-70 rounded-xl"></div>
+                <h1 className="text-black font-Poppins text-center text-3xl font-bold absolute inset-0 flex items-center justify-center">
+                    About Us
+                </h1>
+            </div>
+        
+
+            <div className='mt-44'>
+                <AboutUs />
+            </div>
 
             {/* Mission Section */}
             <div className="bg-[#c1e8ff] mt-8 rounded-lg p-6">
@@ -48,10 +60,10 @@ const About = () => {
                         />
                     </div>
                     <div>
-                        <h1 className="text-center text-3xl font-semibold py-4">
+                        <h1 className="text-center text-3xl font-semibold py-4 dark:text-gray-900">
                             <span ref={typedElementMission}></span>
                         </h1>
-                        <p className="text-xl font-medium lg:text-justify text-center">
+                        <p className="text-xl font-medium lg:text-justify text-center dark:text-gray-900">
                             Our mission is to provide customers with the best quality laptops at competitive prices, backed by excellent customer service and hassle-free shopping experiences. We aim to offer a wide selection of laptops to suit every need, whether it's for work, study, gaming, or entertainment. We are committed to helping our customers find the perfect device that meets their specific requirements, ensuring they get the most value for their investment.
                         </p>
                     </div>
@@ -62,10 +74,10 @@ const About = () => {
             <div className="bg-[#c1e8ff] mt-8 rounded-lg p-6">
                 <div className="lg:grid lg:grid-cols-2 gap-8 items-center flex flex-col-reverse">
                     <div>
-                        <h1 className="text-center text-3xl font-semibold py-4">
+                        <h1 className="text-center text-3xl font-semibold py-4 dark:text-gray-900">
                             <span ref={typedElementVision}></span>
                         </h1>
-                        <p className="text-xl font-medium lg:text-justify text-center">
+                        <p className="text-xl font-medium lg:text-justify text-center dark:text-gray-900">
                             Our vision is to be the leading laptop retailer, recognized for offering genuine products, unbeatable prices, and exceptional customer support. We strive to empower individuals and businesses by providing access to the latest technology that enhances productivity, creativity, and enjoyment. Our goal is to build lasting relationships with our customers and be their trusted partner for all their computing needs.
                         </p>
                     </div>

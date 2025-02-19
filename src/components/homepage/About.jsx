@@ -21,14 +21,14 @@ const AboutUs = () => {
     }, []);
 
     return (
-        <div className="bg-[#c1e8ff] -mt-36">
-            <h1 className="text-center text-3xl font-semibold pt-4 font-Poppins">ABOUT US</h1>
+        <div className="bg-[#c1e8ff] -mt-36 lg:rounded-2xl">
+            {/* <h1 className="text-center text-3xl font-semibold pt-4 font-Poppins dark:text-gray-900">ABOUT US</h1> */}
             <div className="lg:grid lg:grid-cols-2 justify-center px-9 py-12 flex flex-col-reverse">
                 <div>
-                    <p className="text-center text-3xl font-semibold py-4">
+                    <p className="text-center text-3xl font-semibold py-4 dark:text-gray-900">
                         <span ref={typedElement}></span>
                     </p>
-                    <p className="text-xl font-medium lg:pr-7 lg:text-justify text-center">
+                    <p className="text-xl font-medium lg:pr-7 lg:text-justify text-center dark:text-gray-900">
                         Your trusted destination for high-quality laptops at the best prices. We specialize in providing a wide range of laptops, from budget-friendly options to high-performance machines for professionals and gamers. Our mission is to deliver genuine products with excellent customer support, ensuring a seamless shopping experience. With a commitment to quality, affordability, and customer satisfaction, we strive to be your go-to laptop store. Shop with confidence and discover the perfect laptop for your needs!
                     </p>
                 </div>

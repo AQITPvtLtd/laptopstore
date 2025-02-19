@@ -40,12 +40,12 @@ const ScrollSection = ({ title, text, img, showButtons }) => {
                             {showButtons && (
                                 <div className="flex justify-center space-x-4">
                                     <Link href="/View-All-Services">
-                                        <button className="px-6 py-3 bg-[#07a496] text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
+                                        <button className="px-6 py-3 bg-blue-500 text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
                                             View All Services
                                         </button>
                                     </Link>
                                     <Link href="/contactus">
-                                        <button className="px-6 py-3 bg-[#04686e] text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
+                                        <button className="px-6 py-3 bg-blue-500 text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
                                             Contact Us
                                         </button>
                                     </Link>
@@ -66,12 +66,12 @@ const ScrollSection = ({ title, text, img, showButtons }) => {
                         {showButtons && (
                             <div className="flex justify-center space-x-4">
                                 <Link href="/View-All-Services">
-                                    <button className="px-6 py-3 bg-[#07a496] text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
+                                    <button className="px-6 py-3 bg-blue-500 text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
                                         View All Services
                                     </button>
                                 </Link>
                                 <Link href="/contactus">
-                                    <button className="px-6 py-3 bg-[#04686e] text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
+                                    <button className="px-6 py-3 bg-blue-500 text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
                                         Contact Us
                                     </button>
                                 </Link>
@@ -99,7 +99,7 @@ const Page = () => {
             <ScrollSection
                 title="Why Choose Us"
                 text="We offer a reliable and high-quality collection of laptops to suit every budget and need. With competitive pricing, genuine products, and excellent customer support, we ensure a hassle-free shopping experience."
-                img="/contactus/contactbg.png"
+                img="/services/whychoose.png"
                 showButtons={false}
             />
         </div>

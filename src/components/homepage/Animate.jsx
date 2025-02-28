@@ -38,7 +38,7 @@ const ScrollSection = ({ title, text, img, showButtons }) => {
                             <h1 className="text-2xl md:text-3xl font-bold lg:mb-4">{title}</h1>
                             <p className="text-sm md:text-base lg:mb-6 mb-3">{text}</p>
                             {showButtons && (
-                                <div className="flex justify-center space-x-4">
+                                <div className="flex justify-center space-x-4 mt-2">
                                     <Link href="/View-All-Services">
                                         <button className="lg:px-6 px-3 py-3 bg-blue-500 text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
                                             View All Services

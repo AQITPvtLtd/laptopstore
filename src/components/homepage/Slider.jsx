@@ -29,7 +29,7 @@ const Slider = () => {
                     backgroundSize: isLargeScreen ? "cover" : "contain",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
-                    minHeight: isLargeScreen ? "150vh" : "auto", // Large screens par full height, small par auto adjust
+                    minHeight: isLargeScreen ? "110vh" : "auto", // Large screens par full height, small par auto adjust
                     height: isLargeScreen ? "100vh" : "500px",
                 }}
             ></div>

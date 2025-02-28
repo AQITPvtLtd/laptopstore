@@ -1,25 +1,19 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { FaLocationDot } from 'react-icons/fa6';
 import { MdEmail } from 'react-icons/md';
 import { FaXTwitter } from 'react-icons/fa6';
 import { IoCall } from 'react-icons/io5';
-
+import Image from 'next/image';
 const Footer = () => {
     return (
-        <div className="pb-6 py-5 px-8 mt-11 bg-gradient-to-b from-gray-900 to-black text-white relative w-full h-full bg-cover bg-center"
-            style={{ backgroundImage: "url(logo/asdf.avif)" }}>
-            {/* <div className="mb-8 flex justify-center md:justify-start">
-                <Image src="/logo/asdf.png" width={200} height={100} alt="logo-img" className="rounded-lg shadow-lg" />
-            </div> */}
+        <div className="pb-6 py-5 px-8 mt-11 bg-gradient-to-b from-gray-900 to-black text-white relative w-full h-full bg-cover bg-center">
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center sm:text-center md:text-left">
-                {/* About Us */}
                 <div>
-                    <h2 className="font-semibold text-xl mb-3 text-blue-400">About Us</h2>
-                    <p className="text-sm text-gray-300 leading-relaxed">
+                    <Image src="/footer/footerlogo.png" width={250} height={150} alt="logo-img" className="rounded-lg shadow-lg" />
+                    <p className="text-sm text-gray-300 leading-relaxed mt-5">
                         Experience top-tier refurbished laptops from leading brands at unbeatable prices.
                         Elevate your computing with The Laptop Store.
                     </p>
@@ -57,12 +51,14 @@ const Footer = () => {
                 <div>
                     <div>
                         <h2 className="font-semibold text-xl mb-3 text-blue-400">Address</h2>
-                        <div className="flex gap-2 text-gray-300 justify-center md:justify-start">
-                            <FaLocationDot className="text-blue-400 mt-1" />
-                            <p>
-                                G 3 Deep Building, Wazipur Commercial Complex, Delhi, 110052
-                            </p>
-                        </div>
+
+                        <Link href="https://g.co/kgs/QkeEBzr" className="flex gap-2 text-gray-300 justify-center md:justify-start">
+                            <div>
+                                <FaLocationDot className="text-blue-400 mt-1" />
+                            </div>
+                            G 3 Deep Building, Wazipur Commercial Complex, Delhi, 110052
+                        </Link>
+
                     </div>
                     <div className="mt-4">
                         <h2 className="font-semibold text-xl mb-2 text-blue-400">Email</h2>

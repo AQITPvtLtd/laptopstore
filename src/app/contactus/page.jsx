@@ -10,7 +10,7 @@ export const metadata = {
 
 const Page = () => {
     return (
-        <div className="container mx-auto px-4 lg:mt-[125px] mt-[150px]">
+        <div className="container mx-auto px-4 lg:mt-[125px] mt-[95px]">
 
             <div className="relative w-full max-w-5xl mx-auto rounded-2xl">
                 <div className='py-9 rounded-2xl shadow-slate-800 shadow-custom'>
@@ -47,7 +47,7 @@ const Page = () => {
                     <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col items-center text-center">
                         <FaMapMarkerAlt className="text-4xl text-blue-500 mb-4" />
                         <h2 className="text-xl font-semibold text-gray-800 mb-2 font-Poppins">Our Address</h2>
-                        <Link href="/" className="text-gray-600 hover:text-blue-600">
+                        <Link href="https://g.co/kgs/QkeEBzr" className="text-gray-600 hover:text-blue-600">
                             G 3 Deep Building, Ground Floor, Wazirpur Commercial Complex, Near Shalimar Bagh Metro Station, Gate No. 5, Delhi, 110052
                         </Link>
                     </div>

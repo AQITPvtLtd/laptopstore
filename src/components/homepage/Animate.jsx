@@ -22,25 +22,25 @@ const ScrollSection = ({ title, text, img, showButtons }) => {
     return (
         <div ref={ref} className="relative w-full overflow-hidden">
             {isLargeScreen ? (
-                <div className="relative min-h-[150vh]">
+                <div className="relative min-h-[135vh]">
                     {/* Fixed Background Image */}
                     <motion.div
-                        className="absolute inset-0 bg-cover bg-center bg-fixed"
+                        className="absolute inset-0 bg-contain bg-no-repeat bg-center bg-fixed"
                         style={{ backgroundImage: `url(${img})`, opacity: opacityImage, y: yImage }}
                     ></motion.div>
 
                     {/* Content Box */}
                     <div className="h-screen flex items-end justify-center relative pb-10">
                         <motion.div
-                            className="w-full max-w-2xl bg-black bg-opacity-60 text-white text-center p-6 rounded-lg"
+                            className="w-full max-w-2xl bg-black bg-opacity-60 text-white text-center lg:p-6 px-3 rounded-lg"
                             style={{ y: yText }}
                         >
-                            <h1 className="text-2xl md:text-3xl font-bold mb-4">{title}</h1>
-                            <p className="text-sm md:text-base mb-6">{text}</p>
+                            <h1 className="text-2xl md:text-3xl font-bold lg:mb-4">{title}</h1>
+                            <p className="text-sm md:text-base lg:mb-6 mb-3">{text}</p>
                             {showButtons && (
                                 <div className="flex justify-center space-x-4">
                                     <Link href="/View-All-Services">
-                                        <button className="px-6 py-3 bg-blue-500 text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
+                                        <button className="lg:px-6 px-3 py-3 bg-blue-500 text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
                                             View All Services
                                         </button>
                                     </Link>
@@ -60,13 +60,13 @@ const ScrollSection = ({ title, text, img, showButtons }) => {
                     <div className="w-full h-64 bg-cover bg-center rounded-lg" style={{ backgroundImage: `url(${img})` }}></div>
                     
                     {/* Content Below */}
-                    <div className="w-full bg-white text-black text-center p-6 rounded-lg mt-4">
+                    <div className="w-full bg-white text-black text-center lg:px-6 rounded-lg lg:mt-4">
                         <h1 className="text-xl md:text-2xl font-bold mb-4">{title}</h1>
-                        <p className="text-sm md:text-base mb-6">{text}</p>
+                        <p className="text-lg md:text-base lg:mb-6">{text}</p>
                         {showButtons && (
                             <div className="flex justify-center space-x-4">
                                 <Link href="/View-All-Services">
-                                    <button className="px-6 py-3 bg-blue-500 text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
+                                    <button className="lg:px-6 px-3 py-3 bg-blue-500 text-white font-bold text-lg rounded-lg shadow-lg hover:scale-105 transition">
                                         View All Services
                                     </button>
                                 </Link>
@@ -91,7 +91,7 @@ const Page = () => {
             <ScrollSection
                 title="Is your laptop display or notepad screen broken?"
                 text="Reach us if your Laptop LCD / LED screen is broken or if your laptop monitor gets dim automatically."
-                img="/services/bgservice.png"
+                img="/services/bgservice1.png"
                 showButtons={true}
             />
 

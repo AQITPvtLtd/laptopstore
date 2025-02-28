@@ -20,7 +20,7 @@ const Slider = () => {
     }, []);
 
     return (
-        <div className="w-full">
+        <div className="w-full -mt-20 sm:-mt-28 md:-mt-5">
             {/* First Slider Image - Responsive */}
             <div
                 className="w-full flex items-center justify-center"
@@ -29,7 +29,7 @@ const Slider = () => {
                     backgroundSize: isLargeScreen ? "cover" : "contain",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
-                    minHeight: isLargeScreen ? "100vh" : "auto", // Large screens par full height, small par auto adjust
+                    minHeight: isLargeScreen ? "150vh" : "auto", // Large screens par full height, small par auto adjust
                     height: isLargeScreen ? "100vh" : "500px",
                 }}
             ></div>

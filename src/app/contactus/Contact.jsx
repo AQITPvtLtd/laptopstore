@@ -80,7 +80,6 @@ const Contact = () => {
                         <textarea id="Message" name="Message" className="w-full border border-gray-300 rounded-2xl px-3 py-2 focus:outline-none focus:border-blue-500" placeholder="Describe Your Query..." required value={formData.Message} onChange={handleChange}></textarea>
                     </div>
 
-
                     <div>
                         {loading ? (
                             <div className="flex justify-center items-center w-full h-full bg-gray-500 bg-opacity-50 rounded-md fixed top-0 left-0 z-50">
@@ -91,12 +90,10 @@ const Contact = () => {
                                 Submit
                             </button>
                         )}
-
                     </div>
                 </form>
             </div>
         </div >
-
     );
 };
 

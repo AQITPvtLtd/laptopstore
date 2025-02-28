@@ -2,7 +2,7 @@ import React from 'react'
 
 const Photo = () => {
   return (
-    <div className='lg:mt-[125px] mt-[155px]'>
+    <div className='lg:mt-[125px] mt-[95px]'>
       <div className="relative w-full max-w-5xl mx-auto rounded-2xl px-5">
         <div className='py-9 rounded-2xl shadow-slate-800 shadow-custom'>
 

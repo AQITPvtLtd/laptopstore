@@ -9,14 +9,13 @@ import Contact from "@/app/contactus/Contact";
 const Services = () => {
   return (
     <div className="dark:bg-white">
-      <h1 className="text-center font-bold text-4xl pt-7 font-Poppins tracking-wide dark:text-gray-900">OUR LAPTOP SERVICES</h1>
-      <p className="text-center font-semibold text-2xl font-Poppins text-gray-700">
+      <h1 className="text-center font-bold lg:text-4xl text-2xl pt-7 font-Poppins tracking-wide dark:text-gray-900">OUR LAPTOP SERVICES</h1>
+      <p className="text-center font-semibold lg:text-2xl text-xl font-Poppins text-gray-700 px-3">
         The Laptop Store welcomes you to the world of quality services
       </p>
 
 
-      <div className="lg:grid lg:grid-cols-12 mt-10 pb-5">
-
+      <div className="lg:grid lg:grid-cols-12 lg:mt-10 mt-5 pb-5">
         <div className="col-span-7">
           <div className="grid grid-cols-2 gap-4 pb-6 lg:px-16 px-5">
             {["img1.png", "img2.png", "img3.png", "img4.png", "img5.png", "newssd.png"].map((img, index) => (
@@ -37,7 +36,7 @@ const Services = () => {
         </div>
 
         <div className="col-span-4">
-          <div className="px-10">
+          <div className="lg:px-10 px-5">
             <Contact />
           </div>
         </div>

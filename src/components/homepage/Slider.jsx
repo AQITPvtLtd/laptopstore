@@ -39,7 +39,7 @@ const Slider = () => {
                 <div
                     className="bg-cover bg-center bg-fixed w-full h-screen md:h-[80vh] lg:h-[90vh] flex items-center justify-center"
                     style={{
-                        backgroundImage: 'url("/slider/slider2.png")',
+                        backgroundImage: 'url("/slider/slider3.png")',
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
